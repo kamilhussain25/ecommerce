@@ -1,5 +1,5 @@
 "use client"
-import { useState, useEffect } from 'react'
+//import { useState, useEffect } from 'react'
 import Header from '@/components/ui/header'
 import SlidersWithText from '@/components/ui/slider'
 import Video from '@/components/ui/videos'
