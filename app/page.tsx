@@ -7,14 +7,14 @@ import Chatbot from "@/components/ui/chatbot"
 import { Footer } from '@/components/footer'
 
 const Home = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  // const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  useEffect(() => {
-    const token = localStorage.getItem('token'); // Check if the token exists in localStorage
-    if (token) {
-      setIsAuthenticated(true); // If token exists, the user is authenticated
-    }
-  }, []);
+  // useEffect(() => {
+  //   const token = localStorage.getItem('token'); // Check if the token exists in localStorage
+  //   if (token) {
+  //     setIsAuthenticated(true); // If token exists, the user is authenticated
+  //   }
+  // }, []);
 
   return (
     <div> 
