@@ -4,7 +4,7 @@ import Header from '@/components/ui/header'
 import SlidersWithText from '@/components/ui/slider'
 import Video from '@/components/ui/videos'
 import Chatbot from "@/components/ui/chatbot"
-import { Footer } from '@/components/footer'
+import { Footer } from '@/components/ui/footer'
 
 const Home = () => {
   // const [isAuthenticated, setIsAuthenticated] = useState(false);
